@@ -13,7 +13,8 @@ while(True):
         print ("Amount must be a number greater than zero!") 
         break
  
-url = f"https://api.apilayer.com/fixer/convert?to={target_currency}&from={initial_currency}&amount={amount}" 
+url = (f"https://api.apilayer.com/fixer/convert?to={target_currency}"
+f"&from={initial_currency}&amount={amount}")
  
 payload = {} 
 headers= { 
