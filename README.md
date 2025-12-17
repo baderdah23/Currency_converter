@@ -1,2 +1,2 @@
 # Currency_converter
-currency conversion project
+This is a currency conversion project; the code was written using Python.
